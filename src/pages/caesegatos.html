@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdotePets</title>
+    <link rel="icon" href="/src/imgs/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/src/index.css">
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="container-fluid navBar">
+        <div class="container navBarContainer">
+    
+            <div class="navBarElements1">
+             <a href="/src/index.html"> <img src="/src/imgs/icons2.png"></a>
+                <h2>Adote Pets</h2>
+            </div>
+    
+            <div class="navBarElemets2">
+                <a href="#">Cães e Gatos</a>
+                <a href="/src/pages/selvages.html">Silvestre</a>
+                <button class="btn btn-success">Doe Agora</button>
+                <button class="btn btn-success">Seja Padrinho</button>
+            </div>
+        </div>
+        </nav>
+
+        <section class="container-fluid section5">
+            <video class="video-background" autoplay loop muted>
+                <source src="/src/imgs/gatomovie.mp4" type="video/mp4">
+            </video>
+        </section>
+        
+        <section class="container-fluid d-flex align-items-center justify-content-center  section6">
+            
+            
+            
+
+            <div class="form container-fluid d-flex align-items-center justify-content-center">
+    
+                
+                <form class="my-5 d-flex flex-column gap-3" id="custom-form">
+                    
+                    <h2 class="text-center">Adote um Gato</h2>
+                    <h2 class="text-center ">Formulário de Inscrição</h2>
+
+                    <label>Insira seu Nome</label>
+                    <input type="name" name="name" id="nomeCat" required>
+
+                    <label>Insira seu Email</label>
+                    <input type="email" name="name" id="emailCat" required>
+
+                    <label>Escreva um pouco sobre a sua História</label>
+                    <textarea></textarea>
+
+                    <button type="button" class="btn btn-light btn-sm"  id="buttonCat">Enviar</button>
+
+                </form>
+    
+                <form class="my-5 d-flex flex-column gap-3" id="custom-form1">
+                    
+                    <h2 class="text-center">Adote um Cachorro</h2>
+                    <h2 class="text-center ">Formulário de Inscrição</h2>
+
+                    <label>Insira seu Nome</label>
+                    <input type="name" name="name" id="nomeDog">
+
+                    <label>Insira seu Email</label>
+                    <input type="email" name="email" id="emailDog">
+
+                    <label>Escreva um pouco sobre a sua História</label>
+                    <textarea></textarea>
+
+                    <button type="button" class="btn btn-light btn-sm"  id="buttonDog">Enviar</button>
+
+                </form>
+    
+            </div>
+        </section>
+
+        <footer class="container-fluid navpag2">
+            
+            <video class="video-background2" autoplay loop muted>
+                <source src="/src/imgs/dogmovie.mp4" type="video/mp4">
+            </video>
+        
+        </footer>
+        
+        <script src="/index.js"></script>
+</body>
