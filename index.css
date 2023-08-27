@@ -650,6 +650,9 @@ footer{
         margin-right: 2rem;
     }
 
+    .texts h1{
+        margin-left: 1rem;
+    }
 }
 
 @media (max-width:535px){
@@ -689,7 +692,7 @@ footer{
     }
 
     .textsection3 h4{
-       font-size: 20px;
+       font-size: 18px;
        
     }
 
@@ -728,6 +731,10 @@ footer{
     .textsection3 h4{
         font-size: 16px;
         
+     }
+
+     .texts h1{
+        margin-left: 3rem;
      }
 }
 
