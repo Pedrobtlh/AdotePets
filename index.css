@@ -732,6 +732,11 @@ footer{
         font-size: 16px;
         
      }
+    
+     .texts h4 {
+        
+        padding-right: 1rem;
+     }
 
      .texts h1{
         margin-left: 3rem;
