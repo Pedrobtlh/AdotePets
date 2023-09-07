@@ -715,33 +715,41 @@ footer{
 
 @media (max-width:425px){
 
-    .section2Elements img{
-        margin-right: 2rem;
-    }
-
-    .section2Elements h1{
-        margin-right: 2rem;
-    }
-
-    .textsection3 h1{
-        font-size: 18px;
+    .textsection3 {
         
-     }
-
-    .textsection3 h4{
-        font-size: 16px;
+       
+        text-align: center; /* Centralize o texto */
+                padding: 20px; /* Adicione espaço ao redor do texto */
+            }
         
-     }
-    
-     .texts h4 {
+            
+            
         
-        padding-right: 1rem;
-     }
-
-     .texts h1{
-        margin-left: 3rem;
-     }
-}
+           
+        .textsection3 h1 {
+                margin-right: 0; /* Remova a margem direita para alinhar o título ao centro */
+            }
+        
+            
+            
+        
+        .section3 {
+                padding: 20px; /* Adicione espaço interno à seção para evitar que o conteúdo fique muito próximo às bordas da tela */
+            }
+        
+            
+            
+        
+           
+        .btn-success {
+                margin-left: auto; /* Centralize o botão horizontalmente */
+                margin-right: auto;
+                display: block; /* Transforme-o em um elemento de bloco para ocupar toda a largura disponível */
+            }
+        
+        
+        }      
+        
 
 @media(max-width:375px){
     .textsection3{
